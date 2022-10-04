@@ -26,20 +26,24 @@
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_true" />
+            android:text="@string/button_true"
+            app:backgroundTint="@color/material_dynamic_primary10" />
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_false" />
+            android:text="@string/button_false"
+            app:backgroundTint="@color/material_dynamic_primary10" />
 
     </LinearLayout>
+
     <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_next" />
+        android:text="@string/button_next"
+        app:backgroundTint="@color/material_dynamic_primary10" />
 
     <TextView
         android:id="@+id/counter_text_view"
