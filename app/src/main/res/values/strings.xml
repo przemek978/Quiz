@@ -5,7 +5,7 @@
     <string name="button_next">Następny</string>
     <string name="correct_answer">Poprawna odpowiedz</string>
     <string name="incorrect_answer">Niepoprawna odpowiedź</string>
-    <string name="q_activity">Activity jest jednym z komponentow apliakcji android</string>
+    <string name="q_activity">Activity jest jednym z komponentow aplikacji android</string>
     <string name="q_version">Android jest lepszy od IOS</string>
     <string name="q_listener">Android 10 jest najnowszą wersją</string>
     <string name="q_resources">Zasoby w aplikacji android definuje się w plikach .xml</string>
