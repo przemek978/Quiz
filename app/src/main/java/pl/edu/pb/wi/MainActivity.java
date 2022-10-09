@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView counterTextView;
     private int Counter=0;
     private Question[] questions=new Question[]{
-            new Question(R.string.q_activity,true),
+            new Question(R.string.q_sys,false),
             new Question(R.string.q_version,false),
-            new Question(R.string.q_listener,false),
-            new Question(R.string.q_resources,true),
-            new Question(R.string.q_find,false),
+            new Question(R.string.q_activity,true),
+            new Question(R.string.q_open,false),
+            new Question(R.string.q_five,true),
     };
     private int currentIndex = 0;
     @Override
