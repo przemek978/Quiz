@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     private Question[] questions=new Question[]{
             new Question(R.string.q_sys,false),
             new Question(R.string.q_version,false),
-            new Question(R.string.q_activity,true),
+            new Question(R.string.q_history,true),
             new Question(R.string.q_open,false),
-            new Question(R.string.q_five,true),
+            new Question(R.string.q_four,true),
     };
     private int currentIndex = 0;
     @Override
