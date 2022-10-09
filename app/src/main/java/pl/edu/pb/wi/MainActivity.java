@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     public void checkpoint()
     {
         if(((currentIndex + 1)%questions.length)==0){
-            String a="Uzyskales "+Counter+ " pkt";
+            String a="Uzyskałes "+Counter+ " pkt";
             Toast.makeText(getBaseContext(),a, Toast.LENGTH_SHORT).show();
             Counter=0;
         }
